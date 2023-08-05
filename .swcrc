@@ -1,0 +1,13 @@
+{
+  "jsc": {
+    "parser": {
+      "syntax": "typescript",
+      "tsx": true,
+      "dynamicImport": true
+    },
+    "paths": {
+      "src/*": ["src/*"]
+    },
+    "target": "es2020"
+  }
+}

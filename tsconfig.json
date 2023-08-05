@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "target": "es2018",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "module": "commonjs",
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "baseUrl": ".",
+    "outDir": "dist",
+    "rootDir": "src",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "noEmit": true,
+    "noImplicitAny": false
+  },
+  "plugins": [{ "name": "typescript-plugin-css-modules" }],
+  "include": ["./src/**/*", "./custom.d.ts"],
+  "exclude": ["node_modules"]
+}
